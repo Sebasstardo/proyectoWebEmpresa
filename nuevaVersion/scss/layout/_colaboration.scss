@@ -1,0 +1,29 @@
+.colab {
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 35rem;    
+    .col-6{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 1400px) {
+    .colab {
+        
+        margin-top: 20rem;
+    }
+
+}
+@media (max-width: 1000px) {
+
+    .colab {
+        height: unset;                
+    }
+	
+}
+

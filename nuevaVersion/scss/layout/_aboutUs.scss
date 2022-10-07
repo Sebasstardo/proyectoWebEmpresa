@@ -1,0 +1,81 @@
+.aboutUs {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    background-color: $complementario;
+
+    h2 {
+        color: $main;
+        z-index: 1;
+    }
+
+    p {
+        margin-top: 10px;
+        color: #fff;        
+        font-weight: 400;
+        z-index: 1;
+    }
+}
+
+.imgUs {
+    z-index: 1;
+}
+
+
+.cover2 {
+    width: 100%;
+    padding-bottom: 18rem;
+    padding-top: 21rem;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.wave2 {
+    width: 6000px;
+    height: 94%;
+    position: absolute;
+    top: 24px;
+    left: 0;
+    background-image: url('../img/wave(1).png');
+
+}
+
+
+.wave3 {
+    width: 6000px;
+    height: 94%;
+    position: absolute;
+    bottom: 27px;
+    left: 0;
+    background-image: url(../img/wd1Blue.png);
+    background-position: bottom;
+}
+
+
+@media (max-width: 1000px) {
+    .aboutUs {
+        height: unset;
+    }
+    .imgUs {
+        
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width: 1400px) {
+    .container__vector2 {
+        img {
+
+            height: 40rem;
+        }
+    }
+
+    .aboutUs p {
+        font-size: 1.9rem;
+
+    }
+
+}

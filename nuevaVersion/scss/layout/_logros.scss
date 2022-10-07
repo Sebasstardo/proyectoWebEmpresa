@@ -1,0 +1,31 @@
+.logros {
+
+	text-align: center;	
+	max-height: 100%;
+	border-radius: 24px;
+	margin-top: 2rem;
+}
+
+.gridT {
+	div {
+		h3 {
+			font-weight: 500;
+			font-size: 1.9rem;
+		}
+
+		span {
+			font-size: 2.2rem;
+			font-weight: 800;
+		}
+	}
+}
+
+
+
+@media (max-width: 1000px) {
+	.logros {
+		max-height: 100%;
+		height: unset;
+		margin-top: 0rem;
+	}
+}
